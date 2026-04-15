@@ -1,0 +1,31 @@
+.navbar-custom-menu>.navbar-nav>li>.dropdown-menu {
+    left: 0;
+}
+
+.log-out-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.log-out-btn:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+ 
+.input-field {
+    width: calc(80% - 100px); /* Adjust the width relative to the container */
+    max-width: 400px; /* Limit the maximum width to prevent it from growing too wide */
+    height: 30px;
+    margin-left: 8%; /* Set a fixed margin from the left border */
+    /* margin-bottom: 10px; Add some bottom margin for spacing between input fields */
+}
+
+
+.label-width {
+    width: 130px; /* Set a fixed width for all labels */
+    margin-right: 5px; /* Add some margin between label and input */
+}
